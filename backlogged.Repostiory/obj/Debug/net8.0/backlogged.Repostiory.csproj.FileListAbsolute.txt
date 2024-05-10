@@ -1,0 +1,17 @@
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogged.Repostiory.csproj.AssemblyReference.cache
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogged.Repostiory.GeneratedMSBuildEditorConfig.editorconfig
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogged.Repostiory.AssemblyInfoInputs.cache
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogged.Repostiory.AssemblyInfo.cs
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogged.Repostiory.csproj.CoreCompileInputs.cache
+D:\backloggedProject\backlogged\backlogged.Repostiory\bin\Debug\net8.0\backlogged.Repostiory.deps.json
+D:\backloggedProject\backlogged\backlogged.Repostiory\bin\Debug\net8.0\backlogged.Repostiory.runtimeconfig.json
+D:\backloggedProject\backlogged\backlogged.Repostiory\bin\Debug\net8.0\backlogged.Repostiory.dll
+D:\backloggedProject\backlogged\backlogged.Repostiory\bin\Debug\net8.0\backlogged.Repostiory.pdb
+D:\backloggedProject\backlogged\backlogged.Repostiory\bin\Debug\net8.0\backlogged.Core.dll
+D:\backloggedProject\backlogged\backlogged.Repostiory\bin\Debug\net8.0\backlogged.Core.pdb
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogg.3473D172.Up2Date
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogged.Repostiory.dll
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\refint\backlogged.Repostiory.dll
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogged.Repostiory.pdb
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\backlogged.Repostiory.genruntimeconfig.cache
+D:\backloggedProject\backlogged\backlogged.Repostiory\obj\Debug\net8.0\ref\backlogged.Repostiory.dll

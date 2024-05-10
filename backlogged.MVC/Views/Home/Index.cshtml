@@ -1,0 +1,1789 @@
+﻿@{
+	ViewData["Title"] = "A Video Game Collection Tracker";
+}
+
+@model HomeViewModel;
+
+<main role="main" class="main">
+			<div class="container">
+				
+	<div class="row" id="landing-welcome-banner">
+		<div class="col col-md-10 col-lg-8 col-xl-6">
+			<div class="row">
+				<div class="col">
+					<img src="/images/backloggd-logo-full.png" alt="Backloggd logo">
+					<h2>Discover, collect, analyze your games</h2>
+				</div>
+			</div>
+			<div class="row mt-3 mb-4" id="backloggd-total-stats">
+				<div class="col pr-1 pr-md-3">
+					<div class="status-color-indicator play-type-bkg played d-inline-block my-auto"></div><p class="d-inline-block mb-0 stat-label">Played</p>
+					<p>22.3M</p>
+				</div>
+				<div class="col px-1 px-md-3">
+					<div class="status-color-indicator play-type-bkg completed d-inline-block my-auto"></div><p class="d-inline-block mb-0 stat-label">Games</p>
+					<p>183K</p>
+				</div>
+				<div class="col px-1 px-md-3">
+					<div class="status-color-indicator play-type-bkg retired d-inline-block my-auto"></div><p class="d-inline-block mb-0 stat-label">Ratings</p>
+					<p>12.9M</p>
+				</div>
+				<div class="col pl-1 pl-md-3">
+					<div class="status-color-indicator play-type-bkg shelved d-inline-block my-auto"></div><p class="d-inline-block mb-0 stat-label">Reviews</p>
+					<p>1.43M</p>
+				</div>
+				<div class="col d-none d-md-block">
+					<div class="status-color-indicator play-type-bkg abandoned d-inline-block my-auto"></div><p class="d-inline-block mb-0 stat-label">Lists</p>
+					<p>265K</p>
+				</div>
+			</div>
+			<div class="row" id="landing-actions">
+				<div class="col-auto pr-0">
+					<a href="users/sign_up/index.html" class="btn btn-main px-3 py-2">Create a free account</a>
+				</div>
+				<div class="col-auto pl-md-2 my-auto">
+					<p class="subtitle-text mt-2 mt-md-0">or <a href="users/sign_in/index.html" class="">log in</a> if you have an account</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="stats-game-banner">
+		<div class="col">
+			<div class="row" id="stats-game-banner-container">
+				<div class="gradient"></div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co8086.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co3p2d.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1u60.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co73ju.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co3byy.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co5ive.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co752b.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co7p80.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co62ao.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co7497.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1nic.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co741o.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6nnl.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2ekt.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1r77.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1rgi.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6bo0.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1q1f.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1rbi.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6kqt.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co49x5.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1rs4.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6z12.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1tmu.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2855.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1yc6.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/xrpmydnu9rpxvxfjkiu7.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co5vmg.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co833w.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co4jni.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2lbd.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co670h.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1vcf.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1ir3.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2uro.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6mrs.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1x7d.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1mxf.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co39vc.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co85h5.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co8086.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co3p2d.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1u60.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co73ju.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co3byy.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co5ive.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co752b.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co7p80.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co62ao.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co7497.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1nic.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co741o.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6nnl.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2ekt.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1r77.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1rgi.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6bo0.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1q1f.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1rbi.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6kqt.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co49x5.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1rs4.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6z12.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1tmu.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2855.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1yc6.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/xrpmydnu9rpxvxfjkiu7.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co5vmg.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co833w.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co4jni.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2lbd.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co670h.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1vcf.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1ir3.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2uro.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co6mrs.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1x7d.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1mxf.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co39vc.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+						<div class="cover-col col-2 col-sm-1 px-0 m-1">
+							
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co85h5.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+						</div>
+			</div>
+		</div>
+	</div>
+<div class="row mb-2">
+	<div class="col">
+		<div class="row home-heading">
+			<div class="col-auto pr-0">
+				<h2>Recently trending</h2>
+			</div>
+		</div>
+		<div class="row mb-3 mx-n1 mx-md-n3" id="trending-games">
+					@foreach (var item in Model.TrendingGames)
+
+					{
+						<div class="col mx-auto px-1 px-md-3">
+
+							<div class="card mx-auto game-cover quick-access" data-tippy-content="" game_id="294661">
+								<a href="#" class="cover-link"></a>
+								<div class="overflow-wrapper">
+									<img class="card-img height" src="@item.background_image" alt="@item.Name">
+									<div class="overlay"></div>
+									<div class="status-overlay d-none"></div>
+								</div>
+								<div class="game-text-centered">@item.Name</div>
+							</div>
+
+
+						</div>
+					}
+		</div>
+	</div>
+</div>
+	<div class="row" id="landing-about">
+		<div class="col">
+			<h2>What is Backloggd?</h2>
+			<p>Backloggd is a place to virtually track your game collection. Keep your backlog updated, rate the games you've played and add those upcoming to your wishlist. Share your gaming journey with your friends by following each other to keep up-to-date on your latest play sessions.</p>
+		</div>
+	</div>
+	<div class="row landing-feature-showcase">
+		<div class="col-12 col-md-5">
+			<img src="/images/home-demo-collection.jpg" alt="Backloggd profile game library" class="home-page-demo">
+		</div>
+		<div class="col my-auto pl-4">
+			<h2>Track your personal game collection</h2>
+			<p>Log any and every game you've played, are currently playing, and want to play. Be as detailed as you want with features such as time tracking, daily journaling, platform ownership and more.</p>
+		</div>
+	</div>
+	<div class="row landing-feature-showcase">
+		<div class="col my-auto">
+			<h2>Express your thoughts with reviews</h2>
+			<p>See what everyone is thinking with reviews. Every game has an average rating comprised of everyone's rating to give you a quality score from a glance. Then once you're ready, add your review to define what the game means to you.</p>
+		</div>
+		<div class="col-12 col-md-5 order-first order-md-2">
+			<img src="/images/home-demo-reviews.jpg" alt="Backloggd game page showing reviews and rating" class="home-page-demo">
+		</div>
+	</div>
+	<div class="row landing-feature-showcase">
+		<div class="col-12 col-md-5">
+			<img src="/images/home-demo-friends.jpg" alt="Backloggd home page with friend activity" class="home-page-demo">
+		</div>
+		<div class="col my-auto">
+			<h2 class="mt-3">Keep up with the latest from friends</h2>
+			<p>Follow others for an all-in-one activity feed that will keep you updated with their latest gaming progress. Games, reviews, and lists from friends appear directly on your home page so you don't miss a thing.</p>
+		</div>
+	</div>
+	<div class="row landing-feature-showcase">
+		<div class="col my-auto">
+			<h2 class="mt-3">Create and organize games with lists</h2>
+			<p>Lists allow you to create a custom collection of games with options such as tracking your progress or enabling rankings. You can then decide to share your list with the community or keep it private to yourself.</p>
+		</div>
+		<div class="col-12 col-md-5 order-first order-md-2">
+			<img src="/images/home-demo-list.jpg" alt="Backloggd list page" class="home-page-demo">
+		</div>
+	</div>
+	<div class="row mb-3 ">
+		<div class="col">
+			<script async src="../pagead2.googlesyndication.com/pagead/js/f2081.txt?client=ca-pub-7894460385932316"
+			     crossorigin="anonymous"></script>
+			<!-- home-1 -->
+			<ins class="adsbygoogle"
+			     style="display:block"
+			     data-ad-client="ca-pub-7894460385932316"
+			     data-ad-slot="8685284236"
+			     data-ad-format="horizontal"
+			     data-full-width-responsive="true"></ins>
+			<script>
+			     (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+	</div>
+<div class="row mb-3">
+	<div class="col">
+		<div class="row home-heading">
+			<div class="col-auto pr-0">
+				<h2>Popular reviews</h2>
+			</div>
+			<div class="col-auto ml-auto mt-auto home-more-link">
+				<a href="reviews/everyone/week/recent/index.html">See More</a>
+			</div>
+		</div>
+		<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="row pt-2 pb-1 review-card">
+	<div class="col">
+		<div class="row">
+				<div class="col-2">
+					<div class="row">
+						<div class="col pr-0 pr-md-2">
+							<a href="games/another-code-r-a-journey-into-lost-memories/index.html">	
+								
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="4676">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co4ole.jpg" alt="Another Code: R - A Journey into Lost Memories">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="col">
+					<div class="row top-bar mb-1">
+				        <div class="col">
+				        	<div class="row mb-1">
+					        		<a class="mb-0 my-auto d-flex" href="u/thehotrock/index.html">
+						        		<div class="col-auto my-auto username-link pr-0 mr-n2">
+								    		<p class="mb-0">thehotrock</p>
+									    </div>
+									    <div class="col-auto my-auto px-0 ml-2 mr-n2">
+										      
+									    </div>
+								    </a>
+									    <div class="col-auto mt-auto">
+									    		<p class="mb-0 filler-text"><a href="u/thehotrock/review/1570199/index.html" class="review-game-link">reviewed <span class="review-game-name">Another Code: R - A Journey into Lost Memories</span></a></p>
+									    </div>
+				        	</div>
+				        	<div class="row mx-0">
+									<div class="col-auto my-auto pl-0 pr-1">
+								    	
+<div class="row star-ratings-static">
+    <div class="stars-top" style=width:70%>
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+    <div class="stars-bottom">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+</div>
+
+								    </div>
+							    <div class="col-auto my-auto game-status ml-2 pl-2 pr-1">
+								    	<a href=u/thehotrock/games/added_desc/game_status_completed/index.html>
+								    		<p class="mb-0 play-type completed">Completed</p>
+								    		<div class="status-color-indicator play-type-bkg completed"></div>
+								    	</a>
+							    </div>
+							    	<div class="col-auto pl-0 pr-1 filler-text">
+							    		<p class="mb-0">on</p>
+							    	</div>
+									<div class="col-auto my-auto pl-0 pr-1">
+							    		<a class="my-0 ml-auto review-platform" href="u/thehotrock/games/added_desc/played_platform_wii/index.html"><p class="mb-0">Wii</p></a>
+									</div>
+				        	</div>
+				        </div>
+					</div>
+				<div class="row mt-2 mb-3 review-body " review_id="1570199">
+					<div class="col">
+						<div class="position-relative">
+							<div class="collapse mb-0 card-text" id="collapseReview1570199">
+								so this was a showcase for the wiimote and assorted control options in the way CING's DS games were for the touchscreen and other features. it was nice but i probably would've enjoyed it a bit more if i wasn't having frequent control problems trying to play in Dolphin with mouse+keyboard on top of multiple freezes near the end.<br><br>was surprised by how slow paced and generally easy going this was for the most part. the original game was similar but it was only a mere fraction of the length. it mostly works out okay but i found myself enjoying myself more with the lowkey exploration around the lake versus some of the stuff when things fully unravel near the end. <br><br>good, not great but a sizable improvement over the original Another Code/Trace Memory either way. curious to see if the remakes end up shifting my feelings on either one.<br><br>feels truly bittersweet to have finished all of CING's material of this kind. i guess i could always work backwards and try Glass Rose but reception for that seems rough to say the least.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row review-bottom-bar">
+						<div class="col-auto mt-auto fav-review pr-1" id="like_1570199">
+									<p class="d-inline-block my-auto"><i class="fas fa-heart liked m-auto"></i></p>
+									<p class="mb-0 d-inline-block like-counter" model="review" model_id="1570199"><a href="u/thehotrock/review/1570199/likes/index.html">13 Likes</a></p>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a href="u/thehotrock/review/1570199.html#comments-header" class="comments-link"><i class="fas fa-comments-alt"></i> 0</a>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a class="open-review-link" href="u/thehotrock/review/1570199/index.html">Open review</a>
+						</div>
+					<div class="col-auto my-auto ml-auto expand-review-col " review_id="1570199">
+						<a class="collapsed py-0 px-2 review-more" data-toggle="collapse" href="#collapseReview1570199" aria-expanded="false" aria-controls="collapseReview1570199"><i class="fa-solid fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<hr>
+	</div>
+</div>
+
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="row pt-2 pb-1 review-card">
+	<div class="col">
+		<div class="row">
+				<div class="col-2">
+					<div class="row">
+						<div class="col pr-0 pr-md-2">
+							<a href="games/contact/index.html">	
+								
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="20581">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co3t6h.jpg" alt="Contact">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="col">
+					<div class="row top-bar mb-1">
+				        <div class="col">
+				        	<div class="row mb-1">
+					        		<a class="mb-0 my-auto d-flex" href="u/alenaphoenix/index.html">
+						        		<div class="col-auto my-auto username-link pr-0 mr-n2">
+								    		<p class="mb-0">alenaphoenix</p>
+									    </div>
+									    <div class="col-auto my-auto px-0 ml-2 mr-n2">
+										    		<p class="name-badge backer-badge">BACKER</p>
+  
+									    </div>
+								    </a>
+									    <div class="col-auto mt-auto">
+									    		<p class="mb-0 filler-text"><a href="u/alenaphoenix/review/1570976/index.html" class="review-game-link">reviewed <span class="review-game-name">Contact</span></a></p>
+									    </div>
+				        	</div>
+				        	<div class="row mx-0">
+									<div class="col-auto my-auto pl-0 pr-1">
+								    	
+<div class="row star-ratings-static">
+    <div class="stars-top" style=width:80%>
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+    <div class="stars-bottom">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+</div>
+
+								    </div>
+							    <div class="col-auto my-auto game-status ml-2 pl-2 pr-1">
+								    	<a href=u/alenaphoenix/games/added/game_status_completed/index.html>
+								    		<p class="mb-0 play-type completed">Completed</p>
+								    		<div class="status-color-indicator play-type-bkg completed"></div>
+								    	</a>
+							    </div>
+				        	</div>
+				        </div>
+					</div>
+				<div class="row mt-2 mb-3 review-body " review_id="1570976">
+					<div class="col">
+						<div class="position-relative">
+							<div class=" mb-0 card-text" id="collapseReview1570976">
+								WOW that was interesting. even if the gameplay is pretty clunky (auto battling is not a good combat system), if you can get past how obtuse it is, there is a real hidden gem here. it's just a simple, fun and great time with a nice soundtrack.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row review-bottom-bar">
+						<div class="col-auto mt-auto fav-review pr-1" id="like_1570976">
+									<p class="d-inline-block my-auto"><i class="fas fa-heart liked m-auto"></i></p>
+									<p class="mb-0 d-inline-block like-counter" model="review" model_id="1570976"><a href="u/alenaphoenix/review/1570976/likes/index.html">20 Likes</a></p>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a href="u/alenaphoenix/review/1570976.html#comments-header" class="comments-link"><i class="fas fa-comments-alt"></i> 1</a>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a class="open-review-link" href="u/alenaphoenix/review/1570976/index.html">Open review</a>
+						</div>
+					<div class="col-auto my-auto ml-auto expand-review-col " review_id="1570976">
+						<a class="d-none review-more" data-toggle="collapse" href="#collapseReview1570976" aria-expanded="false" aria-controls="collapseReview1570976"><i class="fa-solid fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<hr>
+	</div>
+</div>
+
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="row pt-2 pb-1 review-card">
+	<div class="col">
+		<div class="row">
+				<div class="col-2">
+					<div class="row">
+						<div class="col pr-0 pr-md-2">
+							<a href="games/halo-2-anniversary/index.html">	
+								
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="125009">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2qtv.jpg" alt="Halo 2: Anniversary">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="col">
+					<div class="row top-bar mb-1">
+				        <div class="col">
+				        	<div class="row mb-1">
+					        		<a class="mb-0 my-auto d-flex" href="u/RinoDino/index.html">
+						        		<div class="col-auto my-auto username-link pr-0 mr-n2">
+								    		<p class="mb-0">RinoDino</p>
+									    </div>
+									    <div class="col-auto my-auto px-0 ml-2 mr-n2">
+										      
+									    </div>
+								    </a>
+									    <div class="col-auto mt-auto">
+									    		<p class="mb-0 filler-text"><a href="u/RinoDino/review/1584939/index.html" class="review-game-link">reviewed <span class="review-game-name">Halo 2: Anniversary</span></a></p>
+									    </div>
+				        	</div>
+				        	<div class="row mx-0">
+									<div class="col-auto my-auto pl-0 pr-1">
+								    	
+<div class="row star-ratings-static">
+    <div class="stars-top" style=width:80%>
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+    <div class="stars-bottom">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+</div>
+
+								    </div>
+							    <div class="col-auto my-auto game-status ml-2 pl-2 pr-1">
+								    	<a href=u/RinoDino/games/added/game_status_completed/index.html>
+								    		<p class="mb-0 play-type completed">Completed</p>
+								    		<div class="status-color-indicator play-type-bkg completed"></div>
+								    	</a>
+							    </div>
+							    	<div class="col-auto pl-0 pr-1 filler-text">
+							    		<p class="mb-0">on</p>
+							    	</div>
+									<div class="col-auto my-auto pl-0 pr-1">
+							    		<a class="my-0 ml-auto review-platform" href="u/RinoDino/games/added/played_platform_win/index.html"><p class="mb-0">Windows PC</p></a>
+									</div>
+				        	</div>
+				        </div>
+					</div>
+				<div class="row mt-2 mb-3 review-body " review_id="1584939">
+					<div class="col">
+						<div class="position-relative">
+							<div class="collapse mb-0 card-text" id="collapseReview1584939">
+								Before I started playing Halo 2, I decided to look up its development history, and I found out some pretty interesting stuff. <br>The folks over at Bungie wanted to not just improve on what had been established with the 1st game, but also to bring in a lot of new ideas and concepts to the table. To triple everything!<br>But the devs bit off more than they could chew, and the game went through a bunch of changes during its dev time, with a lack of focus during most of it. The game suffered many delays as a result.<br><br>With all of that being said, it's a fucking miracle Halo 2 turned out as great as it did!<br>Now, it's not free from issues, but I had a lot of fun with this title, and it improves on everything that Halo 1 offered!<br><br>The plot tackles many more themes than last time, ranging from politics to religion. We see more of the Covenant alien species this time around, and hear them interact with each other. <br>And this also adds to the fact that there's a 2nd playable character who's from the Covenant, the Arbiter! <br><br>And that leads me into the gameplay. You'll alternate between Master Chief and the Arbiter throughout the game, especially when you pass the first third of the game. They don't play much differently from each other, except Master Chieft has a flashlight, and the Arbiter has a temporary camoflauge system.<br><br>The biggest new addition to the game, however, is that you can now dual-wield weapons! Of course, if you wanna use a grenade, you will have to put down your left weapon to throw it, but you can easily pick it back up afterwards. Not all weapons can be dual-wield, but many of them do. <br>It's crazy how such a simple addition can make a game more fun!<br><br>There are also some new weapons like the Spartan Sword, which are really fun to use! And the vehicles are also back, and they control better too! The Warthog didn't feel as slippery as before, and the new vehicles are just fun to use... except the tank, that one was a bit too slow for my liking. <br>At least you only use it in one level.<br><br>The overall level design has also seen a significant boost! I criticized Halo 1 for having a lot of empty space, and Halo 2 fixes that by being very no non-sense.<br>Sometimes you do have to stop for some enemies to appear, and at the beginning of the game, it was a bit annoying. But as you go through the game, you find less and less of those situations, which I appreciate.<br>The variety of environments, too, is also a big step up from last time! There's a lot to see and to explore, and there were some part where I found the game to be gorgeous! <br>And this is from 2004!<br><br>On the topic of presentation, this game also very much improves on that. Human character models are way more detailed and expressive, and don't feel as dated as last time. I will say that the Alien character models weren't super great, but I do appreciate some of the detail on their models.<br>The voice acting is also stellar, with the Arbiter being voiced by Keith David, who does an excellent job!<br><br>I do think that the game's lighting system is not the best. Like, most places that have light in them are just fine, but when it's dark, it's really <em>dark</em>. The few times that I did get lost, it was because I couldn't see shit. The Arbiter not having a flashlight made it worse.<br><br>Although since I was playing Halo 2: Anniversary, I could temporarily go to the modern graphics, and see that the lighting was better. Then I would switch back to the old graphics, once I found my way, so that the game would run smoother on my PC.<br><br>All in all, while Halo 2 is not perfect, it was a really fun first-person shooter, that I'm glad I got to play!<br><br>Not sure if I'll be able to play Halo 3, but I want to, one day, finish the fight!
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row review-bottom-bar">
+						<div class="col-auto mt-auto fav-review pr-1" id="like_1584939">
+									<p class="d-inline-block my-auto"><i class="fas fa-heart liked m-auto"></i></p>
+									<p class="mb-0 d-inline-block like-counter" model="review" model_id="1584939"><a href="u/RinoDino/review/1584939/likes/index.html">18 Likes</a></p>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a href="u/RinoDino/review/1584939.html#comments-header" class="comments-link"><i class="fas fa-comments-alt"></i> 0</a>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a class="open-review-link" href="u/RinoDino/review/1584939/index.html">Open review</a>
+						</div>
+					<div class="col-auto my-auto ml-auto expand-review-col " review_id="1584939">
+						<a class="collapsed py-0 px-2 review-more" data-toggle="collapse" href="#collapseReview1584939" aria-expanded="false" aria-controls="collapseReview1584939"><i class="fa-solid fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<hr>
+	</div>
+</div>
+
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="row pt-2 pb-1 review-card">
+	<div class="col">
+		<div class="row">
+				<div class="col-2">
+					<div class="row">
+						<div class="col pr-0 pr-md-2">
+							<a href="games/alan-wake-s-american-nightmare/index.html">	
+								
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="2602">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2eh1.jpg" alt="Alan Wake&#39;s American Nightmare">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="col">
+					<div class="row top-bar mb-1">
+				        <div class="col">
+				        	<div class="row mb-1">
+					        		<a class="mb-0 my-auto d-flex" href="u/DeemonAndGames/index.html">
+						        		<div class="col-auto my-auto username-link pr-0 mr-n2">
+								    		<p class="mb-0">DeemonAndGames</p>
+									    </div>
+									    <div class="col-auto my-auto px-0 ml-2 mr-n2">
+										      
+									    </div>
+								    </a>
+									    <div class="col-auto mt-auto">
+									    		<p class="mb-0 filler-text"><a href="u/DeemonAndGames/review/1587074/index.html" class="review-game-link">reviewed <span class="review-game-name">Alan Wake&#39;s American Nightmare</span></a></p>
+									    </div>
+				        	</div>
+				        	<div class="row mx-0">
+									<div class="col-auto my-auto pl-0 pr-1">
+								    	
+<div class="row star-ratings-static">
+    <div class="stars-top" style=width:40%>
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+    <div class="stars-bottom">
+        <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+    </div>
+</div>
+
+								    </div>
+							    <div class="col-auto my-auto game-status ml-2 pl-2 pr-1">
+								    	<a href=u/DeemonAndGames/games/added/game_status_completed/index.html>
+								    		<p class="mb-0 play-type completed">Completed</p>
+								    		<div class="status-color-indicator play-type-bkg completed"></div>
+								    	</a>
+							    </div>
+							    	<div class="col-auto pl-0 pr-1 filler-text">
+							    		<p class="mb-0">on</p>
+							    	</div>
+									<div class="col-auto my-auto pl-0 pr-1">
+							    		<a class="my-0 ml-auto review-platform" href="u/DeemonAndGames/games/added/played_platform_win/index.html"><p class="mb-0">Windows PC</p></a>
+									</div>
+				        	</div>
+				        </div>
+					</div>
+				<div class="row mt-2 mb-3 review-body " review_id="1587074">
+					<div class="col">
+						<div class="position-relative">
+							<div class="collapse mb-0 card-text" id="collapseReview1587074">
+								I feel so sorry for all non-Spanish speakers who will never understand just how funny the name ‘’Señor Chirridos’’ is; like… is not a bad translation of Mr. Scratch by any means, but it’s so fucking funny and it surprises me even more they just didn’t keep the original name… but I’m so glad they didn’t.<br><br>If <em>Alan Wake</em> is the main TV series, then <em>American Nightmare</em> feels like a Halloween special, which seems to be exactly what they were going for. Despite the original game having such an open finale and this going directly after it, it doesn’t really build upon the pre-established narrative beyond Alan’s character and his conflict with his doppelgänger, and that’s fine! I’m totally up for a shorter, more fast-paced story in this world, and <em>American Nightmare</em> does have a super interesting premise.<br><br>I actually liked how the combat worked in the first game, so expanding on that with more weapons and enemies while using the backdrop of a Night Springs episode and introducing a time-loop is the kind of craziness I can get behind, and AM does succeed at creating more interesting combat encounters than the original game ever did… but doesn’t try to go for more than that despite its many opportunities.<br><br>It does show a promising start; the three main areas of Arizona are interesting and fun to go through and a perfect excuse to battle the Taken, getting more manuscript pages, see more of Mr. Scratch and the little interactions with each of the characters, while not as natural as any of the conversations with the fellas of Bright Falls, are pretty neat. With the addition of a couple of weapons and enemies, this feels like the kind of combat sections they wanted to make the first time around; they even took out the driving section! We are freed from this accursed blight!<br><br>And we even get to hear how Barry and the Old Gods of Asgard are doing, glad to know they are still putting out pure fire!<br><br>It’s a pretty good time, a simple one, but it has some cool moments, I really liked the battles, and overall is just an entertaining time!... and then the second loop begins.<br><br>I absolutely <strong>love</strong> the idea of time-loops as a gameplay system, getting to learn more of the world and levels and using that knowledge to do tasks way faster and m is the best, however, poorly implemented time-loops can turn into doing the exact same thing x amount of times only with a different objective or two and with some new enemies… guess what <em>American Nightmare</em> decides to do. Each time loop is shorter than the last one, but not because you actively take decisions that make things speed up, but because either what were multiple objectives is only one now or because a NPC did the thing way before you. It doesn’t help that the major set-pieces don’t change at all; watching the petrol extractor is a cool sequence, but not one I would have liked to go through three times, and no, putting rock songs, as good as hey sound, doesn’t make it different or better. <br><br>Going through the motions the first time was fine, but having to walk through the same rope two other times is a chore, even if gets shorter every time. Worst part is that they really could have given you more openness if they really wanted; the NPCs you encounter also remember the time loops and no matter what, you can only truly win at the end of the last one, so diving you more lenience on how you deal with things wouldn’t have really affected thing at all, and we have here is just an excuse to turn 3 levels into 9.<br><br>As the loops go on, more enemies get introduced, and… listen, I really do like the combat way more on here, and some of the new enemies are pretty interesting; the Taken that throws projectiles and explosives and the one that divides each time you shine light on him are super cool ideas from a gameplay-wise and as ideas on their own but the rest of them… in many ways they feel like a waste.  The enemies that replace the birds from the original game are faster to deal with but just as annoying, the giants are bullet sponges with no interest move-sets on their own, and the spiders are cool story wise, since they apparently are not part of the Taken perse and instead are part of the Dark Place fauna, but they being just big spiders feels like a wasted opportunity to create something way more cool and alien, and alsoWHY THE FUCK DID THEY HAVE TO BE SPIDERS OH MY GOD- <br><br><em>American Nightmare</em> doesn’t create challenges by throwing enemies with interesting sets of moves, it just throws at you guys that really know how to take damage or a ton of them at the same time, best exemplified on the Arcade mode. I do know and understand that this is a more gameplay-focused entry, but when in the main story you go through the same beats over and over with some minor alterations, and the arcade mode —which by the way, has some unique level themes that I would have preferred to see much more in the main story instead of going through the Observatory three times — is just Wake against waves of enemies and see what score you can get… at a certain point the game loses me, and it doesn’t pull from the creativeness that I know it has and can have to keep me glued to it.<br><br>The Taken stay completely silent, and the creepy charm that was found on hearing their grunts and lines amongst the trees is completely gone; the manuscript pages are way less interesting this time around, and the opportunity of this being based around and taking place in a Night Springs episode Alan wrote isn’t taken advantage of at any point, making for a way less interesting story,  and use of the reality- bending pages.<br><br>In the end, the thing that really kept me more intrigued and wanting to see the game to the finale was, who else, Mr. Scratch himself. I enjoyed most of the villains in the original <em>Alan Wake</em>, but NONE feel like Mr. Scratch; the sound distorting every time Wake says his name, the way he taunts Alan and how he ENJOYS being the worst of him, a true monster all the way through, it’s a disturbing delight every time he’s on screen (literally) and the uneasiness he carries is one I didn’t expected to be done so well. I wished he and Alan had more opportunities to bounce each other, ‘cause every time they did it was a delight, and luckily it seems that American Nightmare isn’t that important to the overall Alan Wake narrative, so hopefully he didn’t kick the bucket, I’d love to see more of him…<br><br>There’s still that <em>Alan Wake</em> attention to detail and story in here, but it didn’t go as deep as it could have, and we have is a story that, while fun at times and with some cool extras and secrets, it still is what is: a Halloween special that doesn’t want to be a real successor or groundbreaking, but it also doesn’t take advantage of the  potential it itself sets, and it can drag on at times… Still fun and funny at times, tho!<br><br>We’ll meet again, <em>Champion of Light</em><br><br>I’ll see you soon, <em>Herald of Darkness</em>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row review-bottom-bar">
+						<div class="col-auto mt-auto fav-review pr-1" id="like_1587074">
+									<p class="d-inline-block my-auto"><i class="fas fa-heart liked m-auto"></i></p>
+									<p class="mb-0 d-inline-block like-counter" model="review" model_id="1587074"><a href="u/DeemonAndGames/review/1587074/likes/index.html">28 Likes</a></p>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a href="u/DeemonAndGames/review/1587074.html#comments-header" class="comments-link"><i class="fas fa-comments-alt"></i> 9</a>
+						</div>
+						<div class="col-auto my-auto pr-1">
+							<a class="open-review-link" href="u/DeemonAndGames/review/1587074/index.html">Open review</a>
+						</div>
+					<div class="col-auto my-auto ml-auto expand-review-col " review_id="1587074">
+						<a class="collapsed py-0 px-2 review-more" data-toggle="collapse" href="#collapseReview1587074" aria-expanded="false" aria-controls="collapseReview1587074"><i class="fa-solid fa-angle-down"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<hr>
+	</div>
+</div>
+
+				</div>
+		</div>
+	</div>
+</div>
+	<div class="row mb-4">
+		<div class="col">
+			<div class="row home-heading mb-2">
+				<div class="col-auto pr-0">
+					<h2>Latest news</h2>
+				</div>
+				<div class="col-auto ml-auto mt-auto home-more-link">
+					<a href="about/recent-news/index.html">See Past Articles</a>
+				</div>
+			</div>
+			<div class="row mt-2 mx-0 news-article-v2" id="news-article">
+				<a href="https://medium.com/p/118790448307">
+					<div class="col py-2">
+						<img src="../cdn-images-1.medium.com/v2/resize_fit_1024/1_44UBI6y1RAwg3AAmHYOZ3g.png">
+						<h2 class="feed-title mb-0">Series | 1.12 Update</h2>
+						<p class="feed-content mb-0">Games are about to become serialized.</p>
+						<p class="feed-date mt-2">Apr 18, 2024</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+<div class="row">
+	<div class="col">
+		<div class="row home-heading mb-2">
+			<div class="col-auto pr-0">
+				<h2>Popular lists</h2>
+			</div>
+		</div>
+		<div class="row home-page-lists">
+			<div class="col-12 col-sm-6 col-md-4 mb-3 list-col">
+	
+<div class="row list-display">
+	<div class="col-12">
+		<a href="u/CodeNameYogurt/list/video-game-characters-who-would-listen-to-limp-bizkit/index.html">
+			<div class="card-stack position-relative">
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co4kag.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co7zj5.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co4run.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2dzv.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2em9.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+			</div>
+		</a>
+	</div>
+		<div class="col-12">
+			<div class="row">
+				<div class="col">
+					<h2><a class="secondary-link" href="u/CodeNameYogurt/list/video-game-characters-who-would-listen-to-limp-bizkit/index.html">Video game characters who would listen to Limp Bizkit</a></h2>
+				</div>
+			</div>
+				<div class="row">
+						<div class="col-auto pr-1">
+							<p class="mb-0 entries-count">by <a class="subtle-link" href="u/CodeNameYogurt/index.html">CodeNameYogurt</a> |</p>
+						</div>
+					<div class="col-auto mr-auto pl-0">
+						<p class="mb-0 entries-count">20 Games</p>
+					</div>
+				</div>
+		</div>
+</div>
+</div><div class="col-12 col-sm-6 col-md-4 mb-3 list-col">
+	
+<div class="row list-display">
+	<div class="col-12">
+		<a href="u/Weatherby/list/gooncore/index.html">
+			<div class="card-stack position-relative">
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co7p80.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co49m4.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co1ozj.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co5pcj.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co3m7i.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+			</div>
+		</a>
+	</div>
+		<div class="col-12">
+			<div class="row">
+				<div class="col">
+					<h2><a class="secondary-link" href="u/Weatherby/list/gooncore/index.html">Gooncore</a></h2>
+				</div>
+			</div>
+				<div class="row">
+						<div class="col-auto pr-1">
+							<p class="mb-0 entries-count">by <a class="subtle-link" href="u/Weatherby/index.html">Weatherby</a> |</p>
+						</div>
+					<div class="col-auto mr-auto pl-0">
+						<p class="mb-0 entries-count">37 Games</p>
+					</div>
+				</div>
+		</div>
+</div>
+</div><div class="col-12 col-sm-6 col-md-4 mb-3 list-col">
+	
+<div class="row list-display">
+	<div class="col-12">
+		<a href="u/MrWarm/list/favorite-characters-to-play-as/index.html">
+			<div class="card-stack position-relative">
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co7jfv.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co3byy.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co39vc.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co2255.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+					
+<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="">
+	<div class="overflow-wrapper">
+			<img class="card-img height" src="/images/co5uu1.jpg" alt="">
+		<div class="overlay"></div>
+	</div>
+</div>
+
+
+			</div>
+		</a>
+	</div>
+		<div class="col-12">
+			<div class="row">
+				<div class="col">
+					<h2><a class="secondary-link" href="u/MrWarm/list/favorite-characters-to-play-as/index.html">Favorite characters to play as</a></h2>
+				</div>
+			</div>
+				<div class="row">
+						<div class="col-auto pr-1">
+							<p class="mb-0 entries-count">by <a class="subtle-link" href="u/MrWarm/index.html">MrWarm</a> |</p>
+						</div>
+					<div class="col-auto mr-auto pl-0">
+						<p class="mb-0 entries-count">7 Games</p>
+					</div>
+				</div>
+		</div>
+</div>
+</div>
+		</div>
+	</div>
+</div>
+	<div class="row mb-3 ">
+		<div class="col">
+			<script async src="../pagead2.googlesyndication.com/pagead/js/f2081.txt?client=ca-pub-7894460385932316"
+			     crossorigin="anonymous"></script>
+			<!-- home-2 -->
+			<ins class="adsbygoogle"
+			     style="display:block"
+			     data-ad-client="ca-pub-7894460385932316"
+			     data-ad-slot="6035108157"
+			     data-ad-format="horizontal"
+			     data-full-width-responsive="true"></ins>
+			<script>
+			     (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
+	</div>
+<div class="row mb-2">
+	<div class="col-12 col-md-4">
+		<div class="row home-heading mb-2">
+			<div class="col mt-auto">
+				<h2>Coming soon</h2>
+			</div>
+			<div class="col-auto ml-auto mt-auto home-more-link">
+				<a href="upcoming-games/index.html">See More</a>
+			</div>
+		</div>
+		<div class="row show-release home-games-section" id="coming-soon">
+					<div class="col">
+
+					@foreach (var item in Model.UpcomingGames)
+
+					{
+							<div class="row my-2">
+								<div class="col col-cus-8 col-md-cus-6 pr-0">
+									<a href="games/cosmic-a-journey-among-shadows/index.html">
+
+										<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="190470">
+											<div class="overflow-wrapper">
+												<img class="card-img height" src="@item.background_image" alt="@item.Name">
+												<div class="overlay"></div>
+											</div>
+										</div>
+
+
+									</a>
+								</div>
+								<div class="col coming-details">
+									<a class="mb-0 name d-block" href="#">@item.Name</a>
+									<p class="my-0 date">@DateTime.Parse(item.Released.ToString()).ToString("MMM dd")</p>
+								</div>
+						</div>
+					}
+											</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-4">
+		<div class="row home-heading mb-2">
+			<div class="col-auto">
+				<h2>Recently anticipated</h2>
+			</div>
+		</div>
+		<div class="row show-release home-games-section" id="coming-soon">
+			<div class="col">
+						@foreach (var item in Model.Recentlyanticipated)
+						{
+							<div class="row my-2">
+								<div class="col col-cus-8 col-md-cus-6 pr-0">
+									<a href="games/shin-megami-tensei-v-vengeance/index.html">
+
+										<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="@item.Id">
+											<div class="overflow-wrapper">
+												<img class="card-img height" src="@item.background_image" alt="@item.Name">
+												<div class="overlay"></div>
+											</div>
+										</div>
+
+
+									</a>
+								</div>
+								<div class="col coming-details">
+									<a class="mb-0 name d-block" href="#">@item.Name</a>
+									<p class="my-0 date">@DateTime.Parse(item.Released.ToString()).ToString("MMM dd")</p>
+								</div>
+							</div>
+						}
+					
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-md-4">
+		<div class="row home-heading mb-2">
+			<div class="col-auto">
+				<h2>Sleeper hits</h2>
+			</div>
+		</div>
+		<div class="row show-release home-games-section" id="coming-soon">
+			<div class="col">
+				@foreach(var item in Model.SleepingHits)
+						{
+							<div class="row my-2">
+								<div class="col col-cus-8 col-md-cus-6 pr-0">
+									<a href="#">
+
+										<div class="card mx-auto game-cover overlay-hide" data-tippy-content="" game_id="@item.Id">
+											<div class="overflow-wrapper">
+												<img class="card-img height" src="@item.background_image" alt="@item.Name">
+												<div class="overlay"></div>
+											</div>
+										</div>
+
+
+									</a>
+								</div>
+								<div class="col coming-details">
+									<a class="mb-0 name d-block" href="#">@item.Name</a>
+									<p class="my-0 date">@item.Rating★</p>
+								</div>
+							</div>
+						}
+						
+					
+			</div>
+		</div>
+	</div>
+</div>
+
+
+			</div>
+		</main>

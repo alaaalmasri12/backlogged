@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<title> Backloggd - @ViewData["Title"] A Video Game Collection Tracker</title>
+<meta name="description" content="Keep a virtual backlog of your video game collection, then rate and review the ones you&#39;ve played to share with your friends!">
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Backloggd - @ViewData["Title"]">
+<meta itemprop="description" content="Keep a virtual backlog of your video game collection, then rate and review the ones you&#39;ve played to share with your friends!">
+<meta itemprop="image" content="https://www.backloggd.com/packs/media/images/meta_banner-d63b2a0bc9b9184fa61ddf135435c219.jpg">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+<link href="/fonts/1.12.2/css/fontawesome.min.css" rel="stylesheet" />
+<link href="/fonts/1.12.2/css/custom-icons.min.css" rel="stylesheet"/>
+<link href="/fonts/1.12.2/css/solid.min.css" rel="stylesheet"/>
+<link href="/fonts/1.12.2/css/regular.min.css" rel="stylesheet"/>
+<link href="/fonts/1.12.2/css/light.min.css" rel="stylesheet"/>
+<link href="/fonts/1.12.2/css/brands.min.css" rel="stylesheet"/>
+<link href="/fonts/1.12.2/css/duotone.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" media="all" href="/css/application-45680d68.chunk.css" data-turbolinks-track="reload" />
+	
+	</head>
+<body>
+	<div class="d-none" id="main-gradient"></div>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark" id="primary-nav">
+			<div class="container">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mr-sm-2 d-inline d-md-none">
+						<a class="nav-link d-inline mr-2" href="games/lib/popular/index.html">Games</a>
+						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</li>
+				</ul>
+
+				<div class="collapse navbar-collapse mt-2 mt-md-0" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="users/sign_in.html">Log In</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="users/sign_up.html">Register</a>
+						</li>
+						<li class="nav-item d-none d-md-block mr-2">
+							<a class="nav-link" href="games/lib/popular/index.html">Games</a>
+						</li>
+					</ul>
+					<form class="form-inline mx-3 mx-md-0 my-2 my-md-0" action="https://www.backloggd.com/search" accept-charset="UTF-8" data-remote="true" method="post">
+						<input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="d3bsBP0gQWPSgPyBi36bjqKPfhsp4YkKLGHGN03gkpNBWd0MoSvr14jpM8gh1XGqzWrSKDcC9lkgIDkDucydxA" />
+						<div class="input-group">
+							<input class="form-control border-right-0 search-bar" id="nav-bar-search" type="search" placeholder="Search" aria-label="Search" name="query" autocomplete="off" data-behavior="autocomplete">
+							<span class="input-group-append mr-md-2">
+								<button class="btn border-left-0 pl-1 pr-2 search-btn" type="submit">
+									<i class="fas fa-search"></i>
+								</button>
+							</span>
+						</div>
+					</form>						<div class="row mx-0 mb-2 mb-md-0">
+						<div class="col my-auto px-0 mx-3 mx-md-0">
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+	<footer class="footer">
+		<div class="container my-2">
+			<div class="row mx-0">
+				<div class="col px-0">
+					<div class="row mx-0 text-muted">
+						<div class="col-auto ml-auto ml-sm-0 my-auto px-0 mr-2">
+							<a href="about/index.html">About</a>
+						</div>
+						<div class="col-auto my-auto px-0 mr-2">
+							<a href="contact/index.html">Contact</a>
+						</div>
+						<div class="col-auto my-auto px-0 mr-2">
+							<a href="backers/index.html">Backers</a>
+						</div>
+						<div class="col-auto my-auto px-0 mr-2">
+							<a href="roadmap/index.html">Roadmap</a>
+						</div>
+						<div class="col-auto my-auto px-0 mr-2">
+							<a href="about/terms-of-service/index.html">Terms</a>
+						</div>
+						<div class="col-auto my-auto px-0 mr-auto mr-sm-2">
+							<a href="about/privacy/index.html">Privacy</a>
+						</div>
+						<div class="col-auto px-0 social-media my-auto ml-auto d-none d-sm-flex">
+							<a href="https://www.patreon.com/backloggd" target="_blank"><i class="fa-brands fa-patreon"></i></a>
+						</div>
+						<div class="col-auto ml-3 px-0 social-media my-auto d-none d-sm-flex">
+							<a href="https://discord.gg/7Jbew5v" target="_blank"><i class="fa-brands fa-discord"></i></a>
+						</div>
+						<div class="col-auto ml-3 px-0 social-media my-auto d-none d-sm-flex">
+							<a href="https://twitter.com/BackloggdApp" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+						</div>
+						<div class="col-auto ml-3 px-0 social-media my-auto d-none d-sm-flex">
+							<a href="https://www.threads.net/@@backloggd.official" target="_blank"><i class="fa-brands fa-threads"></i></a>
+						</div>
+					</div>
+					<div class="row mx-0 d-flex d-sm-none">
+						<div class="col-auto px-0 social-media my-auto ml-auto">
+							<a href="https://www.patreon.com/backloggd" target="_blank"><i class="fa-brands fa-patreon"></i></a>
+						</div>
+						<div class="col-auto px-0 ml-3 social-media my-auto">
+							<a href="https://discord.gg/7Jbew5v" target="_blank"><i class="fa-brands fa-discord"></i></a>
+						</div>
+						<div class="col-auto px-0 ml-3 social-media my-auto">
+							<a href="https://twitter.com/BackloggdApp" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+						</div>
+						<div class="col-auto px-0 ml-3 social-media my-auto mr-auto">
+							<a href="https://www.threads.net/@@backloggd.official" target="_blank"><i class="fa-brands fa-threads"></i></a>
+						</div>
+					</div>
+					<div class="row mx-0 text-muted small">
+						<div class="col-auto my-auto px-0 ml-auto ml-sm-0">
+							© Backloggd 2024 •
+						</div>
+						<div class="col-auto my-auto px-0 ml-1 mr-0">
+							<a href="changelog/index.html"><p class="my-0 ml-0">v1.12.2</p></a>
+						</div>
+						<div class="col-auto my-auto px-0 ml-1">
+							<p class="my-auto">• Powered by</p>
+						</div>
+						<div class="col-auto my-auto px-0 ml-1 igdb-logo mr-auto mr-sm-0">
+							<a href="https://igdb.com/" target="_blank"><p class="my-0 ml-0">IGDB</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+	<script src="js/runtime_application-d50219f0ab5564d0d31a.js" data-turbolinks-track="reload"></script>
+	<script src="js/vendors_application-1cd447e522ed61218ffb.chunk.js" data-turbolinks-track="reload"></script>
+	<script src="js/application-e198b0a015510dd6220d.chunk.js" data-turbolinks-track="reload"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

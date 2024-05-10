@@ -1,0 +1,11 @@
+D:\backloggedProject\backlogged\backlogged.Utility\bin\Debug\net8.0\backlogged.Utility.deps.json
+D:\backloggedProject\backlogged\backlogged.Utility\bin\Debug\net8.0\backlogged.Utility.dll
+D:\backloggedProject\backlogged\backlogged.Utility\bin\Debug\net8.0\backlogged.Utility.pdb
+D:\backloggedProject\backlogged\backlogged.Utility\obj\Debug\net8.0\backlogged.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\backloggedProject\backlogged\backlogged.Utility\obj\Debug\net8.0\backlogged.Utility.AssemblyInfoInputs.cache
+D:\backloggedProject\backlogged\backlogged.Utility\obj\Debug\net8.0\backlogged.Utility.AssemblyInfo.cs
+D:\backloggedProject\backlogged\backlogged.Utility\obj\Debug\net8.0\backlogged.Utility.csproj.CoreCompileInputs.cache
+D:\backloggedProject\backlogged\backlogged.Utility\obj\Debug\net8.0\backlogged.Utility.dll
+D:\backloggedProject\backlogged\backlogged.Utility\obj\Debug\net8.0\refint\backlogged.Utility.dll
+D:\backloggedProject\backlogged\backlogged.Utility\obj\Debug\net8.0\backlogged.Utility.pdb
+D:\backloggedProject\backlogged\backlogged.Utility\obj\Debug\net8.0\ref\backlogged.Utility.dll
